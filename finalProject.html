@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Final Project-Analysis of Redlining and COVID-19</title>
+
+    
+
+
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A==" crossorigin="" />
+    <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js" integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA==" crossorigin=""></script>
+    <script src="https://d3js.org/d3.v5.min.js"></script>
+    <style>
+        #map{
+            width: 800px;
+            height: 600px;
+        }
+    </style>
+</head>
+<body>
+<h2>The Impacts of Redlining on Virus Transmission During the Covid-19 Pandemic</h2>
+<div id="map"></div>
+<script src="leaflet.js"></script>
+<p><strong>Legend</strong>:<br> Green:  A<br>
+    Blue:   B<br>
+    Yellow: C<br>
+    Red:    D<br> <br>
+<p style="line-height: 15px; font-size: 18px;"><span style="background-color: orange; opacity: 80%; width: 15px; height: 15px; border: 1px solid black; display: inline-block; margin-right: 15px"></span>>= 17000 cases per 100k people</p>
+<p style="line-height: 15px; font-size: 18px;"><span style="background-color: orange; opacity: 60%; width: 15px; height: 15px; border: 1px solid black; display: inline-block; margin-right: 15px"></span>13000 - 17000 cases per 100k people</p>
+<p style="line-height: 15px; font-size: 18px;"><span style="background-color: orange; opacity: 40%; width: 15px; height: 15px; border: 1px solid black; display: inline-block; margin-right: 15px"></span>10000 - 12000 cases per 100k people </p>
+<p style="line-height: 15px; font-size: 18px;"><span style="background-color: orange; opacity: 20%; width: 15px; height: 15px; border: 1px solid black; display: inline-block; margin-right: 15px"></span>7000 to 10000 cases per 100k people</p>
+
+<p style="line-height: 15px; font-size: 18px;"><span style="background-color: orange; opacity: 5%; width: 15px; height: 15px; border: 1px solid black; display: inline-block; margin-right: 15px"></span>Fewer than 7000 cases per 100k people</p>
+<i>The darker the orange, the higher the impact</i></p>
+
+</body>
+</html>
